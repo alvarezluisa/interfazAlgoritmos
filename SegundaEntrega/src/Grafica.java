@@ -42,7 +42,7 @@ public class Grafica extends JFrame{
 //        defaultpiedataset.setValue("Redes", new Double(2.0D));
  
         // Creando el Grafico
-        JFreeChart chart = ChartFactory.createPieChart3D("Materias con insuficientes cupos", defaultpiedataset, true, true, false);
+        JFreeChart chart = ChartFactory.createPieChart3D("Informe De Asignación De Clases", defaultpiedataset, true, true, false);
         PiePlot3D pieplot3d = (PiePlot3D)chart.getPlot();
         pieplot3d.setDepthFactor(0.5);
         pieplot3d.setStartAngle(290D);
