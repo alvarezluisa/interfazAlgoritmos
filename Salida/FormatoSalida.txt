@@ -1,0 +1,10 @@
+numeroHorarios
+E1 idEstudiante numeroClases
+A idClase1 idClase2 .. idClaseN
+E2 idEstudiante numeroClases
+A idClase1 idClase2 .. idClaseN
+.
+.
+.
+EN idEstudiante numeroClases
+A idClase1 idClase2 .. idClaseN

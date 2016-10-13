@@ -1,0 +1,25 @@
+numeroDeMaterias
+M1 idMateria numeroCreditos numeroClases
+C1 idClase horaInicio horaFin profesor dia cupos
+C2 idClase horaInicio horaFin profesor dia cupos
+.
+.
+.
+CN idClase horaInicio horaFin profesor dia cupos
+M2 idMateria numeroCreditos numeroClases
+C1 idClase horaInicio horaFin profesor dia cupos
+C2 idClase horaInicio horaFin profesor dia cupos
+.
+.
+.
+CN idClase horaInicio horaFin profesor dia cupos
+numeroDeEstudiantes
+E1 idEstudiante numeroCreditosAprobados cargaAcademica numeroMaterias
+L1 idmateria1 idmateria2 .. idmateriaN
+E2 idEstudiante numeroCreditosAprobados cargaAcademica numeroMaterias
+L2 idmateria1 idmateria2 .. idmateriaN
+.
+.
+.
+EN idEstudiante numeroCreditosAprobados cargaAcademica numeroMaterias
+LN idmateria1 idmateria2 .. idmateriaN
